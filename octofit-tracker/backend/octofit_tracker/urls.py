@@ -20,7 +20,6 @@ from .views import UserViewSet, TeamViewSet, ActivityViewSet, WorkoutViewSet, Le
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
-urlpatterns = [
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'teams', TeamViewSet)
