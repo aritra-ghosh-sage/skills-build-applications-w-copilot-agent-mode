@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
+
+:root {
+  --octo-surface: #f5f7fb;
+  --octo-card: #ffffff;
+  --octo-border: rgba(15, 23, 42, 0.08);
+}
+
+body {
+  font-family: 'Space Grotesk', 'Segoe UI', Tahoma, sans-serif;
+  background: var(--octo-surface);
+  color: #1f2937;
+  min-height: 100vh;
+}
+
+.app-shell {
+  background: radial-gradient(circle at top, #e2ecff 0%, #f5f7fb 55%, #ffffff 100%);
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(90deg, #0d6efd 0%, #5a69f6 60%, #6610f2 100%);
+}
+
+.tracking-wide {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.section-card {
+  border: 1px solid var(--octo-border);
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--octo-card);
+}
+
+.section-card .card-header {
+  background-color: var(--octo-card);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-card .card-header h2 {
+  color: #0d6efd;
+}
+
+.section-card .card-body {
+  background-color: var(--octo-card);
+}
+
+.table thead {
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  background: #f8fafc;
+  color: #334155;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f0f7ff;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0a58ca;
+  border-color: #0a58ca;
+}
+
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #0d6efd;
+}
+
+.detail-list dt {
+  font-weight: 600;
+}
+
+.detail-list dd {
+  color: #111827;
+}
+
+.modal-backdrop.show {
+  opacity: 0.4;
+}
+
+.btn-link {
+  color: #0d6efd;
+}
+
+.btn-link:hover {
+  color: #0a58ca;
+}
+
+.form-label {
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+}
+
+.brand-logo {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+.brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
